@@ -13,15 +13,15 @@
 <body>
     <header class="bg-[#fafafa]">
         <nav class="flex items-center justify-around h-[10vh]">
-            <img src="/src/imgs/search.svg" class="w-8" alt="">
+            <img src="/src/imgs/search.svg" class="w-10 cursor-pointer rounded-full hover:bg-gray-400 p-1" alt="">
             <h1 class="text-3xl font-bold tracking-wider">SHOES IA</h1>
             <div class="flex">
-                <img src="/src/imgs/user.svg" class="w-8 mr-3" alt="">
-                <img src="/src/imgs/bag.svg" class="w-8" alt="">
-            </div>
+                <img src="/src/imgs/user.svg" class="w-10 mr-3 cursor-pointer rounded-full hover:bg-gray-400 p-1" alt="">
+                <img src="/src/imgs/bag.svg" class="w-10 cursor-pointer rounded-full hover:bg-gray-400 p-1" alt="">
+            </div>  
         </nav>
         <div class="flex justify-center">
-            <a href="catalogo.html" class="mr-10">Catalogo</a>
+            <button href="catalogo.html" class="mr-10 bg-gray-800 text-white rounded-lg p-2 hover:bg-gray-300 hover:text-gray-800 ease-out duration-300 border-none">Catalogo</button>
         </div>
         <div class="bg-black border-white flex justify-center mt-4 h-10 items-center">
             <h4 class="text-white text-sm">Entregas gratis durante todo el mes de febrero</h4>
@@ -30,11 +30,22 @@
     <main class="bg-[#fafafa]">
         <section id="hero">
             <div class="relative">
-                <img src="/src/imgs/portada.jpeg" class="w-[50%]" alt="">
-                <div class="absolute">
-                    <h1>Shoes AI</h1>
-                    <h2>colombia</h2>
+                <img src="/src/imgs/portada.jpeg" class="w-[70%]" alt="">
+                <div class="absolute top-[30%] right-[20%]">
+                    <h1 class="text-[4rem] text-center">Shoes AI</h1>
+                    <h2 class="text-[2rem] text-center">colombia</h2>
                 </div>
+            </div>
+        </section>
+        <section id="Desatacados" class="">
+            <div class="flex justify-center flex-col items-center">
+                <h1 class="text-3xl my-4 font-[400] tracking-wide">Nuestros destacados</h1>
+                <div class="flex justify-center my-4">
+                    <img src="/src/imgs/oceano-snickers.jpeg" alt="" class="w-[30%] m-2">
+                    <img src="/src/imgs/nieve-snickers.jpeg" alt="" class="w-[30%] m-2">
+                    <img src="/src/imgs/balas-pisos.jpeg" alt="" class="w-[30%] m-2">
+                </div>
+                <button class=" bg-gray-800 text-white rounded-lg p-2 hover:bg-gray-300 hover:text-gray-800 ease-out duration-300 border-none mb-10">Comprar Ahora</button>
             </div>
         </section>
     </main>
